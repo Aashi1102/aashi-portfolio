@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aashi Tomar | Portfolio</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f9fafb;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #0077b5;
+      color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    h1 {
+      color: #2c3e50;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      color: #0077b5;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      border-bottom: 2px solid #e5e5e5;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      margin-left: 20px;
+      list-style-type: square;
+    }
+
+    a {
+      color: #0077b5;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      background: #f0f4f8;
+      font-size: 0.9em;
+      color: #555;
+    }
+
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .skill {
+      background: #e8f3fb;
+      color: #0077b5;
+      padding: 8px 14px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      font-weight: 500;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+
+    .certificate {
+      background: #f7faff;
+      border-left: 4px solid #0077b5;
+      padding: 10px 15px;
+      margin: 10px 0;
+      border-radius: 6px;
+    }
+
+    .certificate b {
+      color: #2c3e50;
+    }
+
+    .about {
+      background: #f9fcff;
+      border-left: 4px solid #0077b5;
+      padding: 15px;
+      border-radius: 8px;
+      font-size: 1em;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 600px) {
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .container {
+        margin: 20px;
+        padding: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#skills">Skills</a>
+      <a href="#certificates">Certificates</a>
+      <a href="#projects">Projects</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="container">
+    <h1>Hi, I'm Aashi Tomar 👋</h1>
+    <p>B.Tech Computer Science student at Oriental Institute of Science & Technology (OIST), Bhopal.</p>
+  </section>
+
+  <section id="skills" class="container">
+    <h2>Technical Skills</h2>
+    <div class="skills-list">
+      <span class="skill">Python</span>
+      <span class="skill">SQL</span>
+      <span class="skill">Microsoft Word</span>
+      <span class="skill">Microsoft Excel</span>
+      <span class="skill">HTML</span>
+      <span class="skill">CSS</span>
+      <span class="skill">JavaScript</span>
+    </div>
+  </section>
+
+  <section id="certificates" class="container">
+    <h2>Certifications & Achievements</h2>
+
+    <div class="certificate">
+      <b>Certificate of Appreciation (District Level)</b> – 30th National Children’s Science Congress (2022), organized by Science Centre (Gwalior), National Council for Science & Technology Communication, Govt. of India.
+    </div>
+
+    <div class="certificate">
+      <b>Junior Software Developer – NSQF Level 4 (2024)</b>, certified by IT-ITeS Sector Skill Council NASSCOM, Govt. of India.
+    </div>
+
+    <div class="certificate">
+      <b>Domestic Data Entry Operator – NSQF Level 2 (2022)</b>, certified by Ministry of Skill Development & Entrepreneurship, Govt. of India.
+    </div>
+  </section>
+
+  <section id="projects" class="container">
+    <h2>Projects</h2>
+    <ul>
+      <li><b>Cafe/Restaurant Management System (2024)</b> – Built using Python to automate billing, inventory, and order processing.</li>
+      <li><b>Fake News Generator (2024)</b> – Uses <code>if-else</code> statements and <code>random</code> module to generate fake news categories.</li>
+      <li><b>Rock-Paper-Scissors Game (2024)</b> – Interactive web game created using HTML, CSS, and JavaScript.</li>
+    </ul>
+  </section>
+
+  <section id="about" class="container">
+    <h2>About Me</h2>
+    <div class="about">
+      I'm a passionate and motivated learner with strong technical knowledge in Python, SQL, Microsoft Word, and Microsoft Excel.
+      Driven by curiosity and enthusiasm, I continuously improve my skills in technology and data management. 
+      Having earned multiple certifications from recognized national programs, I’ve developed a disciplined and growth-oriented mindset.
+      I aim to contribute effectively to any organization by combining analytical thinking, problem-solving skills, and dedication to learning.
+    </div>
+  </section>
+
+  <section id="contact" class="container">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:tomarashi1102@gmail.com">tomarashi1102@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/aashi-tomar-448a51333" target="_blank">linkedin.com/in/aashi-tomar-448a51333</a></p>
+  </section>
+
+  <footer>
+    © 2025 Aashi Tomar | Portfolio Website
+  </footer>
+</body>
+</html>
